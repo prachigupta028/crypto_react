@@ -1,0 +1,49 @@
+.phone {
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 270px;
+    transform: rotateX('50deg') rotateY('50deg');
+    box-shadow: 5px 5px 200px rgb(62, 62, 161);
+    margin-top: 15vh;
+
+  }
+  .heading{
+    color: white;
+    font-size: 65px;
+    margin-left: 10vw;
+    margin-top: 10vh;
+
+  }
+  .contents{
+    list-style-type:none;
+    margin-left: 10vw;
+    font-size: 20px;
+  }
+  .contents span{
+    color: rgb(133, 190, 234);
+  }
+  .download{
+    border: 1px solid rgb(62, 62, 161);
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    padding:5px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    margin-left: 3vw;
+  }
+  .app{
+    display: flex;
+    
+  }
+  .space{
+    margin-left: 18vw;
+  }
+  

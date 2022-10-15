@@ -1,0 +1,112 @@
+
+.datas img{
+    width: 50px;
+    height: 50px;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.capital{
+       text-transform:uppercase;
+       margin-right: 3vw;
+       font-size: 25px;
+       
+    }
+    .bit_coin{
+        display: flex;
+        justify-content: space-around;
+    }
+    .datas{
+        width: 300px;
+        height: 300px;
+        border: 1px solid rgb(80, 75, 75);
+        float: left;
+        border-radius: 20px;
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: rgb(44, 39, 39);
+    }
+    .datas h3{
+        margin-top: -4vh;
+        color: rgb(159, 150, 150);
+        margin-left: 2vw;
+    }
+    .volume{
+        color: rgb(232, 224, 224);
+    }
+    .priceRed{
+          color: red;
+          font-size: 20px;
+    }
+    .priceGreen{
+        color: rgb(116, 224, 116);
+        font-size: 20px;
+  }
+    .datas .buttonRed{
+         color: red; 
+         border:2px solid red;
+         border-radius: 20px;
+         padding: 8px 15px;
+         background-color: rgb(44, 39, 39);
+         font-size: 15px;
+         transition: 1s;
+    }
+    .datas .buttonRed:hover{
+        color: white;
+        background-color: red;
+    }
+
+    .datas .buttonGreen{
+        color: rgb(116, 224, 116); 
+        border:2px solid green;
+        border-radius: 20px;
+        padding: 8px 15px;
+        background-color: rgb(44, 39, 39);
+        font-size: 15px;
+        transition: 1s;
+   }
+   .datas .buttonGreen:hover{
+       color: white;
+       background-color: rgb(116, 224, 116);
+   }
+    .green{
+        color: rgb(116, 224, 116);
+        border: 2px solid rgb(116, 224, 116);
+        border-radius: 50%;
+        margin-left: 1vw;
+        transition: 1s;
+        padding: 5px;
+    }
+    .green:hover{
+        color: white;
+        background-color: rgb(116, 224, 116);
+        
+    }
+    .red{
+        color: red;
+        border: 2px solid red;
+        border-radius: 50%;
+        margin-left: 1vw;
+        transition: 1s;
+        padding: 5px;
+    }
+    .red:hover{
+        color: white;
+        background-color: red;
+        
+    }
+    .search{
+        width: 70%;
+        height: 30px;
+        border-radius: 30px;
+         margin-bottom: 5vh;
+         margin-left: 10vw;
+         background-color: rgb(44, 39, 39);
+         color: azure;
+         font-size: 20px;
+         text-align: center;
+         outline: none;
+        
+
+    }
+    
